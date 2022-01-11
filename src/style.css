@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 500px;
+  margin: 2em auto;
+
+}
+body{
+  font-family: Inter;
+  background-color: #000;
+}
+nav{
+  padding: 1em;
+  display: flex;
+  background-color: #672280;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meme-card{
+  padding: 2em;
+  background-color: #fff;
+}
+.inputs{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+
+}
+.inputs input{
+  display: block;
+  width: 49%;
+  border: 2px solid #D5D4D8;
+  padding: .5em ;
+  border-radius: 6px;
+}
+button{
+  width: 100%;
+  background-color: #672280;
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: .9em;
+  border-radius: 6px;
+  margin-bottom: 2em;
+}
+.displayMeme{
+  position: relative;
+  text-align: center;
+}
+.memeImg{
+  max-height: 350px;
+  max-width: 100%;
+  border: 1px solid #886196;
+}
+.displayMeme>p{
+  font-family: Impact;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size:32px;
+  color: #fff;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.meme-question{
+  top: .5em;
+}
+.meme-punchline{
+  bottom: .5em;
+}
